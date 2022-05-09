@@ -80,3 +80,13 @@
     	"vueIndentScriptAndStyle": false
     }
     ```
+
+<hr>
+
+# Cấu hình sử dụng CSS/SASS
+
+-   Tạo GlobalStyles component
+-   Cài thư viện SASS: npm i -D sass
+-   Reset CSS:
+    -   npm i --save normalize.css
+-   Default CSS: font-family, font-size, line-height
