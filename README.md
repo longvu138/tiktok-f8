@@ -90,3 +90,12 @@
 -   Reset CSS:
     -   npm i --save normalize.css
 -   Default CSS: font-family, font-size, line-height
+<hr>
+
+# Cấu hình router / layout cho dự án
+
+-   Cài đặt react router dom
+-   Đưa router ra ngoài:
+    -   Tạo file routes public ra ngoài
+    -   dùng map để lấy vào trang app.js
+-   ưu: dễ dàng tạo các Route.
