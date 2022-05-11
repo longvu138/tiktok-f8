@@ -1,0 +1,31 @@
+import React from 'react';
+import classNames from 'classnames/bind';
+import styles from './AccountItem.module.scss';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+const cx = classNames.bind(styles);
+
+const AccountItem = () => {
+    return (
+        <div className={cx('wrapper')}>
+            <img
+                className={cx('avatar')}
+                src="https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/c1763c2ae843d8f54e937237ed3d9330~c5_100x100.jpeg?x-expires=1652410800&x-signature=7X7eC3dOfdJiP5hQfoY6wL8Y30U%3D"
+                alt="Hoaa"
+            />
+            <div className={cx('info')}>
+                <h4 className={cx('name')}>
+                    <span>Nguyen Van A</span>
+                    <FontAwesomeIcon
+                        className={cx('check')}
+                        icon={faCheckCircle}
+                    />
+                </h4>
+                <span className={cx('username')}>nguyenvana</span>
+            </div>
+        </div>
+    );
+};
+
+export default AccountItem;
